@@ -36,6 +36,7 @@ hadoop fs -ls /
 Вывод:
 
 _Found 1 items_
+
 _drwxr-xr-x   - koffer supergroup          0 2024-01-09 08:18 /newDataFlair_
 
 ```
