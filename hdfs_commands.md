@@ -51,7 +51,7 @@ hadoop fs -ls -R /
 hadoop fs -put localfile1 /newDataFlair
 ```
 Вывод:
-`-rw-r--r--   1 koffer supergroup         52 2024-01-09 08:40 /newDataFlair/localfile1`
+-rw-r--r--   1 koffer supergroup         52 2024-01-09 08:40 /newDataFlair/localfile1  
 
 Команда Hadoop fs shell put аналогична команде copyFromLocal, которая копирует файлы 
 или директории из локальной файловой системы в целевую файловую систему Hadoop.
@@ -84,9 +84,9 @@ hadoop fs -copyToLocal /newDataFlair/copysample .
 koffer@hadoop:~$ hadoop fs -cat /newDataFlair/localfile1
 ```
 Вывод:
-`asdasda`
-`123123`
-`...`
+asdasda  
+123123  
+...  
 
 9. mv
 
