@@ -110,6 +110,12 @@ drwxr-xr-x   - koffer supergroup          0 2024-01-09 08:58 /DataFlair/DR1
 drwxr-xr-x   - koffer supergroup          0 2024-01-09 08:36 /DataFlair/xui  
 
 
+10. cp
 
+В этом примере мы копируем файл `xui`, находящийся в каталоге `/DataFlair` в 
+каталог `/newDataFlair`
 
+```
+hadoop fs -cp /DataFlair/xui /newDataFlair
+```
 
