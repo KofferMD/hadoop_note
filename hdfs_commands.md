@@ -1,4 +1,4 @@
-**Hadoop HDFS Commands**
+#Hadoop HDFS Commands
 
 Прежде чем приступим, запустим службы Hadoop:
 
@@ -35,9 +35,8 @@ hadoop fs -ls /
 ```
 Вывод:
 
-_Found 1 items_
-
-_drwxr-xr-x   - koffer supergroup          0 2024-01-09 08:18 /newDataFlair_
+Found 1 items  
+drwxr-xr-x   - koffer supergroup          0 2024-01-09 08:18 /newDataFlair  
 
 ```
 hadoop fs -ls -R /
