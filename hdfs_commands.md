@@ -84,6 +84,7 @@ hadoop fs -copyToLocal /newDataFlair/copysample .
 koffer@hadoop:~$ hadoop fs -cat /newDataFlair/localfile1
 ```
 Вывод:
+
 asdasda  
 123123  
 ...  
@@ -91,6 +92,23 @@ asdasda
 9. mv
 
 В этом примере у нас есть каталог `DR1`
+```
+koffer@hadoop:~$ hadoop fs -ls -R /
+drwxr-xr-x   - koffer supergroup          0 2024-01-09 08:58 /DR1
+...
+```
+Перемещаем каталог `DR1` в `/DataFlair`.
+```
+hadoop fs -mv /DR1 /DataFlair
+```
+
+Вывод:
+
+koffer@hadoop:~$ hadoop fs -ls /DataFlair  
+Found 2 items  
+drwxr-xr-x   - koffer supergroup          0 2024-01-09 08:58 /DataFlair/DR1  
+drwxr-xr-x   - koffer supergroup          0 2024-01-09 08:36 /DataFlair/xui  
+
 
 
 
